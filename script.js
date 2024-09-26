@@ -35,13 +35,16 @@ function handleSignUp() {
 /* step6 */
 function renderHomePage() {
     rootDiv.innerHTML = `
-        <h1>Welcome, ${userName}!</h1>
+    <div class="middle">
+        <h1 class="ww">Welcome, ${userName}!</h1>
         <h2>Create a Post</h2>
         <textarea id="postContent" placeholder="What's on your mind?"></textarea><br>
         <button type="button" onclick="handleCreatePost()">Post</button>
         <h3>Your Posts</h3>
         <ul id="postList"></ul>
+        </div>
         `;
+        
 }
 
 
@@ -67,6 +70,13 @@ function renderPostList() {
     postItem.textContent = post;
     postListElement.appendChild(postItem);
     });
+}
+
+function postModification() {
+
+
+
+    
 }
 
 

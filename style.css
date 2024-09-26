@@ -1,0 +1,42 @@
+h1 {
+text-align: center;
+color: black;
+border: 2px solid #D7E6FA;
+background-color: #D7E6FA;
+border-radius: 5rem;
+font-family:"Caveat", cursive;
+font-optical-sizing: auto;
+font-weight: 20px;
+font-style: normal;;
+
+}
+#signupForm {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+
+body{
+    background-color: #faebd7;
+}
+
+
+
+.middle{
+    text-align: center;
+    font-family:"Caveat", cursive;
+font-optical-sizing: auto;
+font-weight: 20px;
+font-style: normal;;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+
+
+
